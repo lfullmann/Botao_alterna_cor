@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+ 
+button{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: linear-gradient(to right, #79FF9A, #60DDF7);
+    background-size: 200% 200%;
+    background-position: 0 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,0.199);
+    animation: moveGradient 2s alternate infinite;    
+}
+
+@keyframes moveGradient {
+    50% {
+background-position: 100% 50%;
+    }
+}
